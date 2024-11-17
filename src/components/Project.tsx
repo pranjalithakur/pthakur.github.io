@@ -1,11 +1,11 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
+import mock01 from '../assets/images/projects/soc-mod.png';
+import mock02 from '../assets/images/projects/webserver-mod.png';
+import mock03 from '../assets/images/projects/intel-mod.png';
+import mock04 from '../assets/images/projects/blockchain.png';
+import mock05 from '../assets/images/projects/zkp-mod.png';
+import mock06 from '../assets/images/projects/attack-mod.png';
+import mock07 from '../assets/images/projects/nft_mod.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
@@ -17,54 +17,45 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://github.com/pranjalithakur/SOCAutomation" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/pranjalithakur/SOCAutomation" target="_blank" rel="noreferrer"><h2>Security Operations Center(SOC) Automation Lab</h2></a>
+                <p>Orchestrated a comprehensive SOC automation lab project, integrating SIEM (Wazuh) and SOAR (Shuffle) technologies</p>
             </div>
+
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://github.com/pranjalithakur/Password-Manager-Intel-SGX/tree/master" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/pranjalithakur/Password-Manager-Intel-SGX/tree/master" target="_blank" rel="noreferrer"><h2>Password Management System Leveraging Intel SGX</h2></a>
+                <p>Designed and implemented a secure password management system utilizing Intel SGX to safeguard sensitive data against threats</p>
             </div>
+
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://github.com/pranjalithakur/WebServer-Application/tree/master" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/pranjalithakur/WebServer-Application/tree/master" target="_blank" rel="noreferrer"><h2>Secure Web Application Server with Docker Deployment</h2></a>
+                <p>Developed a secure, scalable Docker-based web server for PHP, focusing on mitigating vulnerabilities like SQL injections</p>
             </div>
+
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://github.com/pranjalithakur/Vulnerability-Analysis-of-Smart-Contract" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/pranjalithakur/Vulnerability-Analysis-of-Smart-Contract" target="_blank" rel="noreferrer"><h2>Vulnerability Analysis of Smart Contract on Blockchain Platforms</h2></a>
+                <p>Conducted comprehensive analysis of smart contract vulnerabilities on blockchain platforms, evaluating various security tools</p>
             </div>
+
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+                <a href="https://github.com/pranjalithakur/IoTAuthentication-ZKP" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/pranjalithakur/IoTAuthentication-ZKP" target="_blank" rel="noreferrer"><h2>Authentication of IoT Devices Using Zero-Knowledge Proofs</h2></a>
+                <p>Developed an IoT device authentication protocol using a one-round M-ZKP, enhancing security and efficiency with ZKP principles</p>
             </div>
+
             <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
+                <a href="https://github.com/pranjalithakur/ADE" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/pranjalithakur/ADE" target="_blank" rel="noreferrer"><h2>Cybersecurity Simulation: Attack and Defense Operation</h2></a>
+                <p>The ADE project focused on developing offensive and defensive cybersecurity techniques via simulated virtual environment exercises</p>
             </div>
+
             <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <a href="https://github.com/pranjalithakur/moon_cats_punk" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/pranjalithakur/moon_cats_punk" target="_blank" rel="noreferrer"><h2>Decentralized NFT Marketplace</h2></a>
+                <p>Built a decentralized application that facilitated the auction of NFT art using ReactJs</p>
             </div>
         </div>
     </div>
